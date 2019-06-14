@@ -47,3 +47,4 @@ You can see my most recent trips on Instagram @havi554!
 [Theme Home](home.md)
 [About](about.md)
 [BLOG](blog.md)
+
