@@ -43,3 +43,7 @@ My name is Havi and I study astrobiology. More specifically, I enjoy approaching
 Outside of obsessing over aliens, I also really love learning about different cultures, eating new foods, and meeting people whose entire lives are completely different than mine. 
 
 You can see my most recent trips on Instagram @havi554! 
+
+[Theme Home](home.md)
+[About](about.md)
+[BLOG](blog.md)
