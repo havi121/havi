@@ -1,5 +1,3 @@
-remote_theme: jekyllup/jekyll-theme-massively
-
 ## This is a test 
 
 This is how I type on the first page
