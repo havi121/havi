@@ -1,5 +1,3 @@
-remote_theme: jekyllup/jekyll-theme-massively
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
@@ -12,4 +10,8 @@ social:
     url: http://bitbucket.org/jekyll
   - title: github
     url: http://github.com/jekyll
+
+remote_theme: jekyllup/jekyll-theme-massively
+
+
 
