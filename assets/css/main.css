@@ -1947,7 +1947,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #989898;
 			border-color: #989898;
-			color: #ffffff;
+			color: #white;
 			content: '\f00c';
 		}
 
@@ -2404,7 +2404,7 @@ input, select, textarea {
 			ul.feature-icons li:before {
 				background: #646FC7;
 				border-radius: 100%;
-				color: #ffffff;
+				color: #white;
 				display: block;
 				height: 2.5em;
 				left: 0;
@@ -2521,7 +2521,7 @@ input, select, textarea {
 		background-color: #989898;
 		border-radius: 5px;
 		border: 0;
-		color: #ffffff !important;
+		color: #white !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 700;
@@ -2538,7 +2538,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		.button:hover {
 			background-color: #a5a5a5;
-			color: #ffffff !important;
+			color: #white !important;
 		}
 
 		input[type="submit"]:active,
@@ -2619,7 +2619,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		.button.primary {
 			background-color: #646FC7;
-			color: #ffffff !important;
+			color: #white !important;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2712,11 +2712,11 @@ input, select, textarea {
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #white;
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #ffffff;
+				color: #white;
 			}
 
 		#header header p {
@@ -2728,7 +2728,7 @@ input, select, textarea {
 		}
 
 			#header a:hover {
-				color: #ffffff !important;
+				color: #white !important;
 			}
 
 		#header > header {
@@ -2800,7 +2800,7 @@ input, select, textarea {
 						-ms-transition: none;
 						transition: none;
 						border: 0;
-						color: #ffffff !important;
+						color: #white !important;
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
@@ -3077,7 +3077,7 @@ input, select, textarea {
 
 					#titleBar .toggle:before {
 						background: #646FC7;
-						color: #ffffff;
+						color: #white;
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;
