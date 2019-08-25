@@ -2611,7 +2611,7 @@ input, select, textarea {
 			input[type="reset"].alt.icon:before,
 			input[type="button"].alt.icon:before,
 			.button.alt.icon:before {
-				color: #aaa;
+				color: white;
 			}
 
 		input[type="submit"].primary,
