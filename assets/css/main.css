@@ -2521,7 +2521,7 @@ input, select, textarea {
 		background-color: #989898;
 		border-radius: 5px;
 		border: 0;
-		color: #white !important;
+		color: white !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 700;
@@ -2538,7 +2538,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		.button:hover {
 			background-color: #a5a5a5;
-			color: #white !important;
+			color: white !important;
 		}
 
 		input[type="submit"]:active,
@@ -2619,7 +2619,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		.button.primary {
 			background-color: #646FC7;
-			color: #white !important;
+			color: white !important;
 		}
 
 			input[type="submit"].primary:hover,
