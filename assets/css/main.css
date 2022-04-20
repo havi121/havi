@@ -2442,7 +2442,6 @@ input, select, textarea {
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
-		overflow-y: auto;
 	}
 
 	table {
@@ -2845,7 +2844,7 @@ input, select, textarea {
 		background: #fafafa;
 		border-top: 0;
 		color: #c0c0c0;
-		overflow: hidden;
+		overflow: auto;
 		padding: 4em 0 2em 0;
 	}
 
@@ -2946,7 +2945,7 @@ input, select, textarea {
 		/* Basic */
 
 			html, body {
-				overflow-x: hidden;
+				overflow-x: auto;
 			}
 
 			body, input, select, textarea {
