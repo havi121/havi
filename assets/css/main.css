@@ -31,7 +31,6 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-  overflow-y:auto;
 }
 
 ol, ul {
@@ -2442,6 +2441,7 @@ input, select, textarea {
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
+		overflow-y: auto;
 	}
 
 	table {
@@ -2704,7 +2704,6 @@ input, select, textarea {
 		background: #646FC7;
 		color: #d2f2e9;
 		height: 100%;
-		overflow-x: auto;
 		overflow-y: auto;
 		position: fixed;
 		text-align: center;
@@ -2844,7 +2843,7 @@ input, select, textarea {
 		background: #fafafa;
 		border-top: 0;
 		color: #c0c0c0;
-		overflow: auto;
+		overflow: hidden;
 		padding: 4em 0 2em 0;
 	}
 
@@ -2945,7 +2944,7 @@ input, select, textarea {
 		/* Basic */
 
 			html, body {
-				overflow-x: auto;
+				overflow-x: hidden;
 			}
 
 			body, input, select, textarea {
