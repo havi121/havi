@@ -77,7 +77,6 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
-		overflow: hidden !important;
 	}
 
 	*, *:before, *:after {
