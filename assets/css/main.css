@@ -2704,12 +2704,8 @@ input, select, textarea {
 		background: #646FC7;
 		color: #d2f2e9;
 		height: 100%;
-<<<<<<< HEAD
 		overflow-x: auto;
 		overflow-y: scroll;
-=======
-		overflow-y: auto;
->>>>>>> parent of e778110 (Update main.css)
 		position: fixed;
 		text-align: center;
 		top: 0;
