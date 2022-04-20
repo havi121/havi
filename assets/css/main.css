@@ -77,7 +77,7 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
-		overflow-x: initial !important;
+		overflow-y: auto !important;
 	}
 
 	*, *:before, *:after {
@@ -2707,6 +2707,7 @@ input, select, textarea {
 		color: #d2f2e9;
 		height: 100%;
 		overflow-x: auto;
+		overflow-y: auto;
 		position: fixed;
 		text-align: center;
 		top: 0;
