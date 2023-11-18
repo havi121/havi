@@ -55,6 +55,10 @@
         section#one ul.feature-icons.black-text li {
             color: black; /* Set the text color to black or any color you prefer */
         }
+        /* Override highlighted background color for the feature-icons list items in the "About Me" section */
+#one .feature-icons li:hover {
+    background-color: rgba(255, 255, 255, 0); /* Transparent white background */
+}
 		</style>
 	</head>
 	<body class="is-preload">
@@ -70,9 +74,8 @@
 				<nav id="nav">
 					<ul>
 						<li><a href="#one" class="active">About Me</a></li>
-						<li><a href="#two">Research Interests</a></li>
-						<li><a href="#three">Work</a></li>
-						<li><a href="#four">Contact</a></li>
+						<li><a href="#two">Works</a></li>
+						<li><a href="#three">Contact</a></li>
 					</ul>
 				</nav>
 				<footer>
