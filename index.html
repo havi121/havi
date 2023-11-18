@@ -5,40 +5,54 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap">
-    <meta name="referrer" content="origin" />
-    <title>Havishk Tripathi</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <style>
-        .work-item {
-            position: relative;
-            overflow: hidden;
-        }
-
-        .image-zoom {
-            display: block;
-            transition: transform 0.3s ease-in-out;
-        }
-
-        .image-zoom:hover {
-            transform: scale(1.6);
-        }
-
-        .feature-icons li {
-            list-style: none;
-            padding: 20px;
-            background: #333;
-            border-radius: 6px;
-            margin-bottom: 10px;
-            color: rgb(255, 255, 255);
-            font-family: 'Noto Sans', sans-serif;
-        }
-	</style>
-</head>
+    <head>
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap">
+        <meta name="referrer" content="origin" />
+        <title>Havishk Tripathi</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <!-- Add this to the head section after your existing styles -->
+        <style>
+            .work-item {
+                position: relative;
+                overflow: hidden;
+            }
+    
+            .image-zoom {
+                display: block;
+                transition: transform 0.3s ease-in-out;
+            }
+    
+            .image-zoom:hover {
+                transform: scale(1.6);
+            }
+    
+            .feature-icons li {
+                list-style: none;
+                padding: 20px;
+                background: #333;
+                border-radius: 6px;
+                margin-bottom: 10px;
+                color: rgb(255, 255, 255);
+                font-family: 'Noto Sans', sans-serif;
+            }
+    
+            #particles-js {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -1;
+            }
+        </style>
+    </head>
+    
 <body class="is-preload">
+    <div id="particles-js"></div>
+
 
 <!-- Header -->
 <section id="header">
@@ -147,7 +161,7 @@
                     <a href="#" class="image image-zoom"><img src="images/img04.jpg" alt="" /></a>
                     <div class="inner">
                         <h4>John Mather Nobel Scholar</h4>
-                        <p>During my time at NASA Goddard, I won this award due to my strong interest in contributing to the study of life origins and space.</p>
+                        <p>During my time at NASA Goddard, I won this award due to my strong interest and demonstrated contribution to the study of origins of life and space.</p>
                     </div>
                 </article>
 
@@ -182,6 +196,20 @@
     </section>
 </div>
 <!-- Scripts -->
+<script>
+    particlesJS("particles-js", {
+        particles: {
+            number: { value: 80, density: { enable: true, value_area: 800 } },
+            color: { value: "#ffffff" },
+            shape: { type: "circle", stroke: { width: 0, color: "#000000" } },
+            opacity: { value: 0.5, random: false, anim: { enable: false } },
+            size: { value: 3, random: true, anim: { enable: false } },
+            line_linked: { enable: true, distance: 150, color: "#ffffff", opacity: 0.4, width: 1 },
+            move: { enable: true, speed: 6, direction: "none", random: false, straight: false, out_mode: "out" }
+        }
+    });
+</script>
+
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/jquery.scrollex.min.js"></script>
 <script src="assets/js/jquery.scrolly.min.js"></script>
